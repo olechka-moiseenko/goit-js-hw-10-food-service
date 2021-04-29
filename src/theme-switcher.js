@@ -7,7 +7,6 @@ const body = document.querySelector('body');
 
 function setTheme() {
   const theme = localStorage.getItem('theme');
-  console.log(`theme: ${theme}`);
   if (theme === 'dark') {
     body.classList.add(Theme.DARK);
     body.classList.remove(Theme.LIGHT);
